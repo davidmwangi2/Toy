@@ -1,0 +1,34 @@
+# Toy Problem Solutions
+
+This repository contains solutions to three toy problems: Student Grade Generator, Speed Detector, and Net Salary Calculator.
+
+## Student Grade Generator (`grade.js`)
+
+The `grade.js` file contains a function `calculateGrade(score)` that calculates the grade based on the student's score. The function takes a score as input and returns the corresponding grade according to the following criteria:
+- A: > 79
+- B: 60 to 79
+- C: 49 to 59
+- D: 40 to 49
+- E: less than 40
+
+## Speed Detector (`speed.js`)
+
+The `speed.js` file contains a function `calculateDemeritPoints(speed)` that calculates demerit points based on the speed of a car. The function takes the speed in km/h as input and returns the number of demerit points. For every 5 km/h above the speed limit (70 km/h), the driver receives one demerit point. If the speed is less than or equal to 70 km/h, no demerit points are given.
+
+## Net Salary Calculator (`salary.js`)
+
+The `salary.js` file contains a function `calculateNetSalary(basicSalary, benefits)` that calculates the net salary of an individual based on their basic salary and benefits. The function calculates the payee (tax), NHIF deductions, NSSF deductions, gross salary, and net salary. It returns the net salary after deducting taxes and contributions.
+
+## Usage
+
+You can use these functions by importing them into your JavaScript files as follows:
+
+```javascript
+const calculateGrade = require('./grade');
+const calculateDemeritPoints = require('./speed');
+const calculateNetSalary = require('./salary');
+
+// Usage examples
+const grade = calculateGrade(75); // Returns 'B'
+const demeritPoints = calculateDemeritPoints(80); // Returns 2
+const netSalary = calculateNetSalary(50000, 10000); // Returns 55000
