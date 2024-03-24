@@ -1,35 +1,38 @@
-# Toy Problem Solutions
+# Code challenge 1
 
-This repository contains solutions to three toy problems: Student Grade Generator, Speed Detector, and Net Salary Calculator.
+It tels the student to create a grade generator,speed detector and net salary calculator
 
-## Student Grade Generator (`grade.js`)
+## Author
 
-The `grade.js` file contains a function `calculateGrade(score)` that calculates the grade based on the student's score. 
-The function takes a score as input and returns the corresponding grade according to the following criteria:
-- A: > 79
-- B: 60 to 79
-- C: 49 to 59
-- D: 40 to 49
-- E: less than 40
+Victor Mwangi Gachure
 
-## Speed Detector (`speed.js`)
+### Project Description
 
-The `speed.js` file contains a function `calculateDemeritPoints(speed)` that calculates demerit points based on the speed of a car. The function takes the speed in km/h as input and returns the number of demerit points. For every 5 km/h above the speed limit (70 km/h), the driver receives one demerit point. If the speed is less than or equal to 70 km/h, no demerit points are given.
+ Challenge 1: Student Grade Generator
 
-## Net Salary Calculator (`salary.js`)
+Write a program that prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade:
 
-The `salary.js` file contains a function `calculateNetSalary(basicSalary, benefits)` that calculates the net salary of an individual based on their basic salary and benefits. The function calculates the payee (tax), NHIF deductions, NSSF deductions, gross salary, and net salary. It returns the net salary after deducting taxes and contributions.
+- A > 79
+- B - 60 to 79
+- C - 59 to 49
+- D - 40 to 49
+- E - less than 40.
 
-## Usage
+Challenge 2: Speed Detector
 
-You can use these functions by importing them into your JavaScript files as follows:
+Write a program that takes as input the speed of a car e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 
-```javascript
-const calculateGrade = require('./grade');
-const calculateDemeritPoints = require('./speed');
-const calculateNetSalary = require('./salary');
+For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
 
-// Usage examples
-const grade = calculateGrade(75); // Returns 'B'
-const demeritPoints = calculateDemeritPoints(80); // Returns 2
-const netSalary = calculateNetSalary(50000, 10000); // Returns 55000
+Challenge 3: Net Salary Calculator
+
+Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary.
+
+**NB:** Use KRA, NHIF, and NSSF values provided in the link below.
+
+- [KRA Tax Rates](https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye)
+- [NHIF and NSSF rates](https://www.aren.co.ke/payroll/taxrates.htm)
+
+  #### Collaborate
+  Email me at::victor.gachure@student.moringaschol.com
+  

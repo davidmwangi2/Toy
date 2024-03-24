@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>code challenge 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./Speed Detector/index.html">Speed Detector</a></li>
+            <li><a href="./Student Grades/index.html">Student Grades</a></li>
+            <li><a href="./Net Salary Calculator/index.html">Net Salary Calculator</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
