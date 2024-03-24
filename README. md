@@ -4,7 +4,8 @@ This repository contains solutions to three toy problems: Student Grade Generato
 
 ## Student Grade Generator (`grade.js`)
 
-The `grade.js` file contains a function `calculateGrade(score)` that calculates the grade based on the student's score. The function takes a score as input and returns the corresponding grade according to the following criteria:
+The `grade.js` file contains a function `calculateGrade(score)` that calculates the grade based on the student's score. 
+The function takes a score as input and returns the corresponding grade according to the following criteria:
 - A: > 79
 - B: 60 to 79
 - C: 49 to 59

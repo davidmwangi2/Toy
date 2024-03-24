@@ -1,10 +1,13 @@
-function calculateDemeritPoints(speedInKmh) {
-    const speedLimit = 70;
-    const pointsPerExcessKmh = 2;
-  
-    const speedExcess = Math.max(0, speedInKmh - speedLimit); 
-    const demeritPoints = speedExcess * pointsPerExcessKmh;
-  
-    return demeritPoints;
+function calculateGrade(score) {
+  if (score >= 90) {
+    return "A";
+  } else if (score >= 80) {
+    return "B";
+  } else if (score >= 70) {
+    return "C";
+  } else if (score >= 60) {
+    return "D";
+  } else {
+    return "F";
   }
-  
+}
